@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400;500;600;700;800;900&family=Waiting+for+the+Sunrise&display=swap');
+
+/*################################## ABOUT ME #########################################*/
+
+.about-img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    padding-left: 150px;
+}
+
+.about-home h3 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(11, 83, 83);; 
+
+}
+span {
+    color: rgb(11, 83, 83);
+}
+
+.about-home h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Waiting for the Sunrise', cursive;
+    color:rgb(107, 10, 58);
+}
+
+.about-home p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(17, 17, 17);
+}
+
+h1 {
+    color: rgb(11, 83, 83);
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: cursive;
+    padding: 10px;
+    position:relative;
+    padding-bottom:5px;
+
+}
+
+h1::after {
+    position: absolute;
+    bottom: 0px;
+    content: " ";
+    width:80%;
+    background:rgb(107, 10, 58);
+    height:2px;
+    left:10%;
+    right:10%;
+}
+
+ul li {
+    display: inline-block;
+   
+   
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    color: rgb(11, 83, 83) ;
+    padding: 20px;
+    font-family: cursive ;
+}
+
+/*################################## HOBBIES #########################################*/
+
+#hobbies-home {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(17, 17, 17);
+    padding-left: 150px;
+}
+
+.hobbies-table {
+    padding-left: 120px;
+}
+
+.hobbies-table h3 {
+    font-family: 'Waiting for the Sunrise', cursive;
+    color:rgb(107, 10, 58);
+    font-weight: 900;
+   
+
+}
+
+.hobbies-table img {
+    height: 150px;
+    width: 200px;
+   
+
+}
+
+.hobbies-table p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(17, 17, 17);
+
+}
+
+
+/*################################## JOURNEY IN IT #########################################*/
+
+.journey-home p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(17, 17, 17);
+    padding-left: 150px;
+}
+
+#journey-table {
+    padding-left: 150px;
+}
+
+#journey-table img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#journey-table h3 {
+    font-family: 'Waiting for the Sunrise', cursive;
+    color:rgb(107, 10, 58);
+    font-weight: 900;
+   
+}
+
+/*################################## GOALS #########################################*/
+
+.goals-table {
+    padding-left: 120px;
+}
+
+.goals-table img {
+    height: 150px;
+    width: 150px;
+}
+
+.goals-table p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(17, 17, 17);
+
+}
+
+/*body {
+    
+    
+}
+.profile {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding-left: 150px;
+}
+h1 {
+    color: rgb(38, 142, 160);
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: cursive;
+    padding: 10px;
+    position:relative;
+    padding-bottom:5px;
+
+   
+}
+
+h1::after {
+    position: absolute;
+    bottom: 0px;
+    content: " ";
+    width:80%;
+    background:rgb(197, 7, 102);
+    height:2px;
+    left:10%;
+    right:10%;
+}
+
+
+h2 {
+    font-weight: 900;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 35px;
+    color: rgb(197, 7, 102); 
+}
+
+h3 {
+    font-family: 'Waiting for the Sunrise', cursive;
+    color: rgb(197, 7, 102);
+    font-weight: 900;
+
+}
+
+h4 {
+    color: rgb(170, 167, 167);
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(17, 17, 17);
+}
+a {
+    padding: 20px;
+    font-family: cursive ;
+    color: rgb(38, 142, 160);
+}
+a :hover {
+    background-color: rgb(197, 7, 102); 
+}
+
+.hobbiesImg {
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+}
+#hobbiespg {
+    padding-left: 150px;
+}
+
+.hobbiesTbl {
+    padding-left: 150px;
+}
+span {
+    color: rgb(38, 142, 160);
+}
+
+/*#############################################JOURNEY IN IT##################################################*/
+
+/*.skill-icon {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;  
+}
+
+.journeyPg {
+    padding-left: 150px;
+}
+
+#journeyTbl {
+    padding-left: 150px;
+}
+
+/*#########################################  GOALS  ###############################################*/
+
+/*.goalsPg {
+    padding-left: 150px;
+}
+.goalsheadings {
+    padding-left: 150px;
+}
+.goals-icon {
+    height: 250px;
+    width: 300px;
+    padding-left: 150px;
+    
+}
+
+
